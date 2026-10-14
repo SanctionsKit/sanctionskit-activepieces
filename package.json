@@ -1,0 +1,38 @@
+{
+  "name": "@sanctionskit/piece-sanctionskit",
+  "version": "0.1.0-dev.0",
+  "description": "SanctionsKit screening and retained evidence actions for Activepieces",
+  "main": "bundle/index.js",
+  "files": [
+    "bundle",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.txt"
+  ],
+  "license": "MIT",
+  "author": "SanctionsKit, LLC",
+  "homepage": "https://www.sanctionskit.com",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/bundle.cjs",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "dependencies": {
+    "@activepieces/pieces-framework": "0.32.0",
+    "ajv": "8.17.1",
+    "ajv-formats": "3.0.1",
+    "jsonc-parser": "3.3.1"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/node": "24.10.1",
+    "nock": "14.0.10",
+    "esbuild": "0.25.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SanctionsKit/sanctionskit-activepieces.git"
+  }
+}

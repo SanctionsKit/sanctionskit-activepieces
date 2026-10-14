@@ -1,0 +1,19 @@
+{
+  "url": "https://www.sanctionskit.com/openapi.json",
+  "retrieved_at": "2026-10-14T16:39:19.756453+00:00",
+  "sha256": "ee35d211051ac59466f15ac101fe9fd8b572641c5328a6b605359cf869705c6c",
+  "extraction": "Three selected schemas and recursive references. Only reference prefix rewritten from components/schemas to $defs; no validation constraints removed.",
+  "schemas": [
+    "ScreeningRequest",
+    "ScreeningResult",
+    "SourceRecord",
+    "SourceProvenance",
+    "MatchAssessment",
+    "Coverage",
+    "SourceNotice",
+    "ScreeningPolicySnapshot",
+    "AppliedMatchingPolicy",
+    "RetainedScreeningResult",
+    "Subject"
+  ]
+}
